@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>344. Reverse String</title>
+</head>
+<body>
+<script>
+    /**
+     * @param {string} s
+     * @return {string}
+     */
+
+
+//    JavaScript String 对象
+//    split()	把字符串分割为字符串数组。
+
+//    JavaScript Array 对象
+//    reverse()	颠倒数组中元素的顺序。
+//    join()	把数组的所有元素放入一个字符串。元素通过指定的分隔符进行分隔。
+
+//            颠倒数组
+//            https://leetcode.com/problems/reverse-string/
+    var reverseString = function (s) {
+        return s.split("").reverse().join();
+    };
+    console.log(reverseString("hello"));
+
+</script>
+</body>
+</html>
